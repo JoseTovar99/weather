@@ -11,19 +11,30 @@
 <body>
     <header>
         <nav>
-            <h1 class="titleText">TempCheck</h1>
+            <h1 class="titleText">WeatherWizz</h1>
         </nav>
     </header>
 
     <div class="container">
         <div class="card">
             <div class="cardText">
-            <h1>Choose a City!</h1>
+            <h1>Choose a City</h1>
             </div>
-        <div class="inputText">
+
+            <div class="inputText">
             <input id="textEntry" type="text" placeholder="Oakland, Oregon, etc." onclick="removeText()">
             <button class="btnSearch"><img src="img/icons8-search-24.png"/></button>
-        </div>
+            </div>
+
+            <div class="weather">
+                <h2 class="city">Weather in Oakland</h2>
+                <div class="temp">51°F</div>
+                <img src="" alt="" class="icon">
+                <div class="description">Cloudy</div>
+                <div class="humidity">Humidity: 60%</div>
+                <div class="wind">Wind Speed: 6.2mph</div>
+            </div>
+                
         </div>
 
 

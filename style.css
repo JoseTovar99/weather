@@ -5,17 +5,22 @@
 body {
     margin: 0;
     font-family: 'Merriweather Sans', sans-serif;
+    background-image: url(img/newmountain.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 110%;
 }
 
 .container {
     /*
     background: linear-gradient(rgb(252, 252, 252), rgb(94, 255, 250));
     */
+    
 }
 
 nav {
-    background-image: url(img/clearSky.jpg);
-    height:150px;
+    background-color: rgb(140, 186, 230);
+    height:70px;
     background-size: cover;
     background-position: center;
 }
@@ -29,8 +34,8 @@ nav {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: relative;
-    top: 20%;
-    font-size: 4rem;
+    top: 5%;
+    font-size: 3rem;
 }
 
 .card {
@@ -66,7 +71,10 @@ nav {
 
 #textEntry {
     font-size: 1rem;
-    
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 10px;
 }
 #textEntry:focus {
     outline: rgb(0, 92, 153) auto 5px;
@@ -82,5 +90,22 @@ nav {
 
 .btnSearch:hover {
     background-color: rgb(9, 90, 196);
+    transition: 0.2s ease-out;
+}
 
+.weather {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+}
+
+.temp {
+    font-size: 2rem;
+    padding-top: 10px;
+}
+
+.description {
+    padding-top: 30px;
 }
