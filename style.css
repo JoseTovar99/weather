@@ -26,8 +26,8 @@ nav {
     align-items: center;
     text-align: center;
     background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(9, 117, 218));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     position: relative;
     top: 20%;
     font-size: 4rem;
@@ -42,7 +42,6 @@ nav {
     width: 400px;
     border-radius: 10px;
     box-sizing: border-box;
-    cursor: pointer;
     background-position: center;
     background-size: cover;
     z-index: 100;
@@ -61,4 +60,27 @@ nav {
     margin-top: 1rem;
     border-radius: 10px;
     border: none;
+    display: flex;
+    gap: .5rem;
+}
+
+#textEntry {
+    font-size: 1rem;
+    
+}
+#textEntry:focus {
+    outline: rgb(0, 92, 153) auto 5px;
+}
+
+.btnSearch {
+    background-color: rgb(18, 115, 224);
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnSearch:hover {
+    background-color: rgb(9, 90, 196);
+
 }
