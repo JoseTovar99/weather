@@ -1,3 +1,64 @@
+* {
+    margin: 0;
+}
+
 body {
     margin: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.container {
+    /*
+    background: linear-gradient(rgb(252, 252, 252), rgb(94, 255, 250));
+    */
+}
+
+nav {
+    background-image: url(img/clearSky.jpg);
+    height:150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.titleText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(9, 117, 218));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 20%;
+    font-size: 4rem;
+}
+
+.card {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    height: 450px;
+    width: 400px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    z-index: 100;
+    background-image: url(img/clearSky.jpg);
+    transition: transform 0.4s;
+    position: relative;
+    left: 37%;
+    margin-top: 3rem;
+}
+.cardText {
+    color: white;
+    margin-top: 1rem;
+}
+
+.inputText {
+    margin-top: 1rem;
+    border-radius: 10px;
+    border: none;
 }
