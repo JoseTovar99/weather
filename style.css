@@ -108,4 +108,5 @@ nav {
 
 .description {
     padding-top: 30px;
+    text-transform: capitalize;
 }
