@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    
     <title>Weather Application</title>
 </head>
 <body>
@@ -29,8 +30,10 @@
             <div class="weather">
                 <h2 class="city">Weather in Oakland</h2>
                 <div class="temp">51°F</div>
-                <img src="" alt="" class="icon">
-                <div class="description">Cloudy</div>
+                    <div class="flex">
+                        <img src="http://openweathermap.org/img/wn/04n.png" alt="" class="icon">
+                        <div class="description">Cloudy</div>
+                    </div>
                 <div class="humidity">Humidity: 60%</div>
                 <div class="wind">Wind Speed: 6.2mph</div>
             </div>
@@ -46,6 +49,6 @@
 
 
 
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
 </body>
 </html>
