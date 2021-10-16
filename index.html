@@ -8,6 +8,40 @@
     <link rel="stylesheet" href="style.css">
     
     <title>Weather Application</title>
+    <style>
+        @media screen and (max-width: 420px) {
+         .card {
+           height: 350px;
+           width: 300px;
+         }
+         .cardText {
+             font-size: .7rem;
+         }
+         .btnSearch {
+             font-size: .1rem;
+         }
+         .weather {
+             font-size: .7rem;
+         }
+         .city {
+             font-size: 1rem;
+             margin-top: -.5rem;
+         }
+         .temp {
+             font-size: 1rem;
+             margin-top: -1rem;
+         }
+         .minMaxFlex {
+             font-size: .6rem;
+         }
+         .feels_like {
+             font-size: .7rem;
+         }
+         .humidity {
+             margin-top: -.5rem;
+         }
+        } 
+    </style>
 </head>
 <body>
     <header>
@@ -27,7 +61,7 @@
             <button class="btnSearch"><img src="img/icons8-search-24.png"/></button>
             </div>
 
-            <div class="weather loading">
+            <div class="weather">
                 <h2 class="city">San Francisco</h2>
                 <div class="temp">74°F</div>
                 <div class="minMaxFlex">
