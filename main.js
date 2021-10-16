@@ -22,6 +22,8 @@ let weather = {
         const { temp, humidity } = data.main;
         const { speed } = data.wind;
         const { feels_like } = data.main;
+        const { temp_max } = data.main;
+        const { temp_min } = data.main;
         document.querySelector(".city").innerText = name; //Show the place in the website
         document.querySelector(".icon").src = "http://openweathermap.org/img/wn/"+ icon + ".png"
         document.querySelector(".description").innerText = description;
@@ -29,6 +31,8 @@ let weather = {
         document.querySelector(".humidity").innerText = "Humidity: " + humidity + "%";
         document.querySelector(".wind").innerText = "Wind Speed: " + speed + "mph";
         document.querySelector(".feels_like").innerText = "Feels Like: " + feels_like + "°F"
+        document.querySelector(".max-temp").innerText = temp_max + "°";
+        document.querySelector(".min-temp").innerText = temp_min + "°";
         //document.body.style.backgroundImage ="url('https://source.unsplash.com/1600x900/?" + name + "')"  **If I want to change background image on every new search**
     },
     search: function () {

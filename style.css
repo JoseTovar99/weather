@@ -74,10 +74,14 @@ nav {
     border-radius: 5px;
     outline: none;
     padding-left: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+
 }
+/* If I want input outline
 #textEntry:focus {
     outline: rgb(0, 92, 153) auto 5px;
 }
+*/
 
 .btnSearch {
     background-color: rgb(18, 115, 224);
@@ -85,11 +89,13 @@ nav {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+
 }
 
 .btnSearch:hover {
     background-color: rgb(9, 90, 196);
-    transition: 0.2s ease-out;
+    transition: all 0.3s ease 0s;
 }
 
 .weather {
@@ -113,15 +119,19 @@ nav {
     font-size: 2rem;
     padding-top: 30px;
 }
-
-.feels_like {
+.minMaxFlex {
+    display: flex;
+    gap: .5rem;
     font-size: .8rem;
+}
+.feels_like {
+    font-size: .9rem;
 }
 
 .description {
     padding-top: 30px;
     text-transform: capitalize;
-    margin-left: 6px;
+    margin-left: 2px;
 }
 
 .flex {
@@ -135,4 +145,12 @@ nav {
 
 .humidity {
     padding-top: 5px;
+}
+
+footer h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 9rem;
+    color: white;
+    font-size: 1rem;
 }
