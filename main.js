@@ -21,12 +21,14 @@ let weather = {
         const { icon, description } = data.weather[0];
         const { temp, humidity } = data.main;
         const { speed } = data.wind;
+        const { feels_like } = data.main;
         document.querySelector(".city").innerText = name; //Show the place in the website
         document.querySelector(".icon").src = "http://openweathermap.org/img/wn/"+ icon + ".png"
         document.querySelector(".description").innerText = description;
         document.querySelector(".temp").innerText = temp + "°F";
         document.querySelector(".humidity").innerText = "Humidity: " + humidity + "%";
         document.querySelector(".wind").innerText = "Wind Speed: " + speed + "mph";
+        document.querySelector(".feels_like").innerText = "Feels Like: " + feels_like + "°F"
         //document.body.style.backgroundImage ="url('https://source.unsplash.com/1600x900/?" + name + "')"  **If I want to change background image on every new search**
     },
     search: function () {
