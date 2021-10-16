@@ -25,7 +25,7 @@ body {
 }
 
 nav {
-    background: linear-gradient(to right, #7fd4ee, #0e4f7a);
+    background: linear-gradient(to right, #7fb8ee, #cad1d6);
     height:70px;
     background-size: cover;
     background-position: center;
@@ -116,7 +116,7 @@ nav {
 }
 
 .city {
-    margin-top: 1rem;
+    margin-top: .1rem;
     font-size: 2rem;
     color: rgb(216, 235, 247);
 }
@@ -150,7 +150,7 @@ nav {
 }
 
 .humidity {
-    padding-top: 5px;
+    margin-top: -.1rem;
 }
 
 footer h1 {
@@ -160,3 +160,93 @@ footer h1 {
     color: white;
     font-size: 1rem;
 }
+
+@media (min-width: 1800px) { 
+    .card {
+        height: 600px;
+        width: 550px;
+    }
+    footer h1 {
+        margin-top: 8rem;
+    }
+    .btnSearch {
+        font-size: 1.2rem;
+    }
+    .weather {
+        font-size: 1.5rem;
+    }
+    .city {
+        font-size: 2.5rem;
+    }
+    .temp {
+        font-size: 2.5rem;
+    }
+   }
+    .minMaxFlex {
+        font-size: 1.2rem;
+    }
+    .feels_like {
+        font-size: 1.2rem;
+    }
+    .description {
+        font-size: 1.5rem;
+    }
+    .humidity {
+        margin-top: .1rem;
+        font-size: 1.2rem;
+    }
+    .wind {
+        font-size: 1.2rem;
+    }
+
+    #textEntry {
+        width: 210px;
+    }
+
+
+@media (max-width: 450px) {
+    .card {
+      height: 350px;
+      width: 300px;
+    }
+    .cardText {
+        font-size: .7rem;
+    }
+    .btnSearch {
+        font-size: .1rem;
+    }
+    .weather {
+        font-size: .7rem;
+    }
+    .city {
+        font-size: 1.5rem;
+        margin-top: -.5rem;
+    }
+    .temp {
+        font-size: 1.3rem;
+        margin-top: -1rem;
+    }
+    .minMaxFlex {
+        font-size: .8rem;
+    }
+    .feels_like {
+        font-size: .9rem;
+    }
+    .description {
+        font-size: .8rem;
+    }
+    .humidity {
+        margin-top: -.5rem;
+        font-size: .9rem;
+    }
+    .wind {
+        font-size: .9rem;
+    }
+    .titleText {
+        font-size: 1rem;
+        top: auto;
+    }
+    nav {
+        height: 30px;
+    }
+   } 

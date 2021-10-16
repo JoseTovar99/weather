@@ -5,50 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/weathericon.png">
+
     <link rel="stylesheet" href="style.css">
     
     <title>Weather Application</title>
-    <style>
-        @media screen and (max-width: 420px) {
-         .card {
-           height: 350px;
-           width: 300px;
-         }
-         .cardText {
-             font-size: .7rem;
-         }
-         .btnSearch {
-             font-size: .1rem;
-         }
-         .weather {
-             font-size: .7rem;
-         }
-         .city {
-             font-size: 1.5rem;
-             margin-top: -.5rem;
-         }
-         .temp {
-             font-size: 1.3rem;
-             margin-top: -1rem;
-         }
-         .minMaxFlex {
-             font-size: .8rem;
-         }
-         .feels_like {
-             font-size: .9rem;
-         }
-         .description {
-             font-size: .8rem;
-         }
-         .humidity {
-             margin-top: -.5rem;
-             font-size: .9rem;
-         }
-         .wind {
-             font-size: .9rem;
-         }
-        } 
-    </style>
 </head>
 <body>
     <header>
@@ -64,7 +25,7 @@
             </div>
 
             <div class="inputText">
-            <input id="textEntry" type="text" placeholder="Paris, Tokyo, etc." onclick="removeText()">
+            <input id="textEntry" type="text" placeholder="Paris, Tokyo, London, etc." onclick="removeText()">
             <button class="btnSearch"><img src="img/icons8-search-24.png"/></button>
             </div>
 

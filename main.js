@@ -49,3 +49,11 @@ document.getElementById("textEntry").addEventListener("keyup", function(event) {
         weather.search();
     }
 })
+
+let error = document.getElementById("textEntry");
+
+error.addEventListener("keyup", function (event) {
+    if (event.key === "ArrowUp") {
+        console.log("working")
+    }
+})
