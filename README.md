@@ -4,6 +4,6 @@ A weather app that showcases a variety of items. After inputting a city, at the 
 
 Right under, you'll see an icon with a description of the weather, humidity levels, and wind speed.
 
-All of this is inside a card with a calming gradient and a city background.
+All of this is inside a card with a calming gradient and a city background. Data is coming from the OpenWeatherMap API
 
 ![image](https://user-images.githubusercontent.com/62781023/137571414-7ee427a7-5430-4449-8c3b-3b603c9a3a9e.png)
